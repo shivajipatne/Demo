@@ -16,10 +16,5 @@ steps:
 
 name: $(SourceBranchName)_$(date:yyyyMMdd)$(rev:.r)
 
-resources:      
-  repositories: 
-  - repository: Shared
-    name: Playground/Shared
-    type: git 
-    ref: master #branch name
+
 
